@@ -1,4 +1,4 @@
-package com.example.hellocd;
+package com.example.newapp;
 
 import org.springframework.boot.*;
 import org.springframework.boot.autoconfigure.*;
@@ -9,7 +9,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 @RestController
 @EnableAutoConfiguration
-public class HellocdApplication {
+public class NewappApplication {
 
 
 	@RequestMapping("/")
@@ -18,7 +18,7 @@ public class HellocdApplication {
 	}
 
 	public static void main(String[] args) {
-		SpringApplication.run(HellocdApplication.class, args);
+		SpringApplication.run(NewappApplication.class, args);
 	}
 
 }
