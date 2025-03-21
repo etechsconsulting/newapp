@@ -1,7 +1,7 @@
 pipeline {
     agent any
-    docker {
-      image 'maven:3.9.8-sapmachine-21'
+    tools {
+      maven 'maven 3.9.8'
     }
 
     stages {
